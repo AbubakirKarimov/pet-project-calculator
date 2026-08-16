@@ -3,16 +3,17 @@ package com.abubakirkarimov.calculator.calculator;
 public class Calculator {
 
 
-    public int add(int firstNumber,int  secondNumber) {
+
+    public double add(double firstNumber,double  secondNumber) {
         return firstNumber + secondNumber;
     }
-    public int subtract(int firstNumber,int  secondNumber) {
+    public double subtract(double firstNumber,double  secondNumber) {
         return firstNumber - secondNumber;
     }
-    public int multiply(int firstNumber,int  secondNumber) {
+    public double multiply(double firstNumber,double  secondNumber) {
         return firstNumber * secondNumber;
     }
-    public int divide(int firstNumber,int  secondNumber) {
+    public double divide(double firstNumber,double  secondNumber) {
         return firstNumber / secondNumber;
     }
 
